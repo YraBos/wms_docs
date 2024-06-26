@@ -12,16 +12,18 @@ const config = {
   tagline: 'WMS',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
+  // Set the production url of your site here
+  url: 'https://yrabos.github.io',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'yrabos', // Usually your GitHub org/user name.
-  projectName: 'wms_docs.github.io', // Usually your repo name.
+  organizationName: 'YraBos', // Usually your GitHub org/user name.
+  projectName: 'yrabos.github.io', // Usually your repo name.
+  deploymentBranch: 'main',
+  trailingSlash: true,
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -32,11 +34,6 @@ const config = {
   i18n: {
     defaultLocale: 'ru',
     locales: ['ru'],
-//    localeConfigs: {
-//        ru: {
-//        label: 'Русский',
-//        },
-//    },
   },
 
   presets: [
@@ -51,7 +48,7 @@ const config = {
           routeBasePath: '/',
           showLastUpdateTime: true,
           editUrl:
-            'https://github.com/YraBos/wms_docs',
+            'https://github.com/YraBos/wms_docs/edit/main',
         },
         blog: {
           showReadingTime: false,
@@ -78,7 +75,7 @@ const config = {
           alt: 'Logo',
           src: 'img/logo.svg',
         },
-        items: [
+//        items: [
 //          {
 //            type: 'docSidebar',
 //            sidebarId: 'tutorialSidebar',
@@ -91,11 +88,11 @@ const config = {
 //            label: 'GitHub',
 //            position: 'right',
 //          },
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-        ],
+//          {
+//            type: 'localeDropdown',
+//            position: 'right',
+//          },
+//        ],
       },
       footer: {
         style: 'dark',
