@@ -69,6 +69,9 @@ const config = {
     ({
       // Replace with your project's social card
 //      image: 'img/docusaurus-social-card.jpg',
+//    algolia: {
+//      contextualSearch: true,
+//    },
       navbar: {
         title: 'WMS',
         logo: {
