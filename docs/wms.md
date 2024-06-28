@@ -1,5 +1,6 @@
 ---
 title: 'lsFusion WMS'
+position: 1
 slug: /
 ---
 

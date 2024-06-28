@@ -25,6 +25,7 @@ const sidebars = {
         label: 'Руководство пользователя',
         items: [
             'manual/manual',
+            'manual/interface',
         ],
     },
     {
