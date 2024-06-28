@@ -71,8 +71,8 @@ const config = {
 //      image: 'img/docusaurus-social-card.jpg',
     // Поиск по сайту
     algolia: {
-       appId: '0S01ATFZLH',
-       apiKey: 'c03ad547b1c3aa86535fc01091e3775e',
+       appId: 'E1PO5EGBDA',
+       apiKey: '57774cf7001ec391f7bb1a94e65e77df',
        indexName: 'yrabosio',
        contextualSearch: true,
     },

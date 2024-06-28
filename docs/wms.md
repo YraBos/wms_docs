@@ -13,4 +13,6 @@ lsFusion WMS – это профессиональная система упра
 - [Руководство по работе с ТСД](tsd/tsd.md) - данные по настройке и эксплуатации ТСД в системе WMS
 - [Руководство администратора](admin/admin.md) - данные по настройке, эксплуатации и обслуживанию системы WMS
 
-[https://www.youtube.com/watch?v=JaVRgko2S7g&t=4s]
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JaVRgko2S7g?si=hIdyUetuNhMN1BGN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
