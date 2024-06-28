@@ -69,9 +69,13 @@ const config = {
     ({
       // Replace with your project's social card
 //      image: 'img/docusaurus-social-card.jpg',
-//    algolia: {
-//      contextualSearch: true,
-//    },
+    // Поиск по сайту
+    algolia: {
+       appId: '0S01ATFZLH',
+       apiKey: 'c03ad547b1c3aa86535fc01091e3775e',
+       indexName: 'yrabosio',
+       contextualSearch: true,
+    },
       navbar: {
         title: 'WMS',
         logo: {
