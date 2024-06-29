@@ -17,6 +17,7 @@
 }
 */
 
+
 :root {
   --ifm-color-primary: #0062bd;
   --ifm-color-primary-dark: #0058aa;
@@ -25,6 +26,10 @@
   --ifm-color-primary-light: #004e97;
   --ifm-color-primary-lighter: #0053a1;
   --ifm-color-primary-lightest: #0058aa;
+    /* шрифт заголовков (title) */
+  article header h1 {
+    font-size: 2.5rem !important;
+  }
 }
 
 .docusaurus-highlight-code-line {
