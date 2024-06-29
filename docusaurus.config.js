@@ -7,7 +7,7 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+module.exports = {
   title: 'WMS documentation',
   tagline: 'WMS',
   favicon: 'img/favicon.ico',
@@ -42,13 +42,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl: 'https://github.com/YraBos/wms_docs/edit/main',
+          editLocalizedFiles: true,
           routeBasePath: '/',
           showLastUpdateTime: true,
-          editUrl:
-            'https://github.com/YraBos/wms_docs/edit/main',
         },
         blog: {
           showReadingTime: false,
@@ -154,4 +152,4 @@ const config = {
     }),
 };
 
-export default config;
+
