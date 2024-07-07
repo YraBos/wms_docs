@@ -1,7 +1,7 @@
 module.exports = {
 
     docs: [
-        'wms', 'functional',
+        'wms', 'functional', 'note',
         {
             type: 'category',
             label: 'Руководство Пользователя',
@@ -33,6 +33,7 @@ module.exports = {
             link: {type: 'doc', id: 'admin/admin'},
             items: [
                 'admin/architecture_wms',
+                'admin/installation',
             ],
         },
 

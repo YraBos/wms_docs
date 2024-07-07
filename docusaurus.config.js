@@ -14,14 +14,14 @@ module.exports = {
 
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/wmsdocs/',
 
   // Set the production url of your site here
   url: 'https://yrabos.github.io',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'yrabos', // Usually your GitHub org/user name.
-  projectName: 'yrabos.github.io', // Usually your repo name.
+  projectName: 'wmsdocs', // Usually your repo name.
   deploymentBranch: 'main',
   trailingSlash: true,
 
@@ -73,6 +73,10 @@ module.exports = {
        apiKey: '57774cf7001ec391f7bb1a94e65e77df',
        indexName: 'yrabosio',
        contextualSearch: true,
+//       appId: '0S01ATFZLH',
+//       apiKey: 'c03ad547b1c3aa86535fc01091e3775e',
+//       indexName: 'yrabosio',
+//       contextualSearch: true,
     },
       navbar: {
         title: 'WMS',
