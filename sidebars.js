@@ -3,37 +3,62 @@ module.exports = {
     docs: [
         'wms', 'functional', 'note',
         {
-            type: 'category',
-            label: 'Руководство Пользователя',
-            link: {type: 'doc', id: 'manual/manual'},
+            type: 'category', label: 'Руководство Пользователя', link: {type: 'doc', id: 'manual/manual'},
             items: [
                 {
-                    type: 'category',
-                    label: 'Интерфейсы',
-                    link: {type: 'doc', id: 'manual/interface'},
+                    type: 'category', label: 'Интерфейсы', link: {type: 'doc', id: 'manual/interface'},
                     items: [
-                        'manual/interface_forms',
-                        'manual/interface_set',
-                        'manual/interface_view',
+                        'manual/interface_forms', 'manual/interface_set', 'manual/interface_view',
                     ],
                 },
             ],
         },
         {
-            type: 'category',
-            label: 'Руководство по работе с ТСД',
-            link: {type: 'doc', id: 'tsd/tsd'},
+            type: 'category', label: 'Руководство по работе с ТСД', link: {type: 'doc', id: 'tsd/tsd'},
             items: [
                 'tsd/logon',
             ],
         },
         {
-            type: 'category',
-            label: 'Руководство Администратора',
-            link: {type: 'doc', id: 'admin/admin'},
+            type: 'category', label: 'Руководство Администратора', link: {type: 'doc', id: 'admin/manual'},
             items: [
-                'admin/architecture_wms',
-                'admin/installation',
+                'admin/architecture',
+                {
+                    type: 'category', label: 'Администрирование системы WMS', link: {type: 'doc',id: 'admin/administration/administration'},
+                    items: [
+                        {
+                            type: 'category', label: 'Приложение', link: {type: 'doc', id: 'admin/administration/app'},
+                            items: [
+                                'admin/administration/app_settings','admin/administration/app_standard',
+                            ],
+                        },
+                        {
+                            type: 'category', label: 'Система', link: {type: 'doc', id: 'admin/administration/sys'},
+                            items: [
+                                'admin/administration/sys_settings',
+                                {
+                                    type: 'category', label: 'Производительность', link: {type: 'doc', id: 'admin/administration/performance'},
+                                    items: [
+                                        'admin/administration/sys_monitor',
+                                    ],
+                                },
+                                'admin/administration/sys_interpreter','admin/administration/sys_service',
+                                {
+                                    type: 'category', label: 'Уведомления', link: {type: 'doc', id: 'admin/administration/notification'},
+                                    items: [
+                                        'admin/administration/sys_mail',
+                                    ],
+                                },
+                            ]
+                        },
+                    ],
+                },
+                {
+                    type: 'category', label: 'Общее описание интерфейса клиента', link: {type: 'doc',id: 'admin/common/common'},
+                    items: [
+                        'admin/common/settings',
+                    ],
+                },
             ],
         },
 
