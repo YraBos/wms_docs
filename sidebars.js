@@ -80,7 +80,7 @@ module.exports = {
                 {
                     type: 'category', label: 'Общее описание интерфейса клиента', link: {type: 'doc',id: 'admin/common/common'},
                     items: [
-                        'admin/common/settings',
+                        'admin/common/form_structure','admin/common/user_settings','admin/common/mode_view',
                     ],
                 },
             ],
