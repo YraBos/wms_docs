@@ -72,6 +72,7 @@ module.exports = {
                                         'admin/administration/magazines/user_log',
                                     ],
                                 },
+                                'admin/administration/sys_meta',
                             ]
                         },
                     ],
