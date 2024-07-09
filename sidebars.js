@@ -52,8 +52,24 @@ module.exports = {
                                 {
                                     type: 'category', label: 'Планировщик', link: {type: 'doc', id: 'admin/administration/scheduler/scheduler'},
                                     items: [
-                                        'admin/administration/scheduler/restore.md','admin/administration/scheduler/task.md',
-                                        'admin/administration/scheduler/backup.md',
+                                        'admin/administration/scheduler/restore','admin/administration/scheduler/task',
+                                        'admin/administration/scheduler/backup',
+                                    ],
+                                },
+                                {
+                                    type: 'category', label: 'Доступ', link: {type: 'doc', id: 'admin/administration/access/access'},
+                                    items: [
+                                        'admin/administration/access/computers','admin/administration/access/politics',
+                                        'admin/administration/access/users',
+                                    ],
+                                },
+                                {
+                                    type: 'category', label: 'Журналы', link: {type: 'doc', id: 'admin/administration/magazines/magazines'},
+                                    items: [
+                                        'admin/administration/magazines/launch_log','admin/administration/magazines/change_log',
+                                        'admin/administration/magazines/client_application_log','admin/administration/magazines/error_log',
+                                        'admin/administration/magazines/connection_log','admin/administration/magazines/history_log',
+                                        'admin/administration/magazines/user_log',
                                     ],
                                 },
                             ]
