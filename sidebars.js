@@ -37,16 +37,23 @@ module.exports = {
                             items: [
                                 'admin/administration/sys_settings',
                                 {
-                                    type: 'category', label: 'Производительность', link: {type: 'doc', id: 'admin/administration/performance'},
+                                    type: 'category', label: 'Производительность', link: {type: 'doc', id: 'admin/administration/performance/performance'},
                                     items: [
-                                        'admin/administration/sys_monitor',
+                                        'admin/administration/performance/monitor',
                                     ],
                                 },
                                 'admin/administration/sys_interpreter','admin/administration/sys_service',
                                 {
-                                    type: 'category', label: 'Уведомления', link: {type: 'doc', id: 'admin/administration/notification'},
+                                    type: 'category', label: 'Уведомления', link: {type: 'doc', id: 'admin/administration/notification/notification'},
                                     items: [
-                                        'admin/administration/sys_mail',
+                                        'admin/administration/notification/mail',
+                                    ],
+                                },
+                                {
+                                    type: 'category', label: 'Планировщик', link: {type: 'doc', id: 'admin/administration/scheduler/scheduler'},
+                                    items: [
+                                        'admin/administration/scheduler/restore.md','admin/administration/scheduler/task.md',
+                                        'admin/administration/scheduler/backup.md',
                                     ],
                                 },
                             ]
