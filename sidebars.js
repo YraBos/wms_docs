@@ -1,12 +1,12 @@
 module.exports = {
 
     docs: [
-        'wms', 'functional', 'note',
+        'wms', 'functional',
         {
             type: 'category', label: 'Руководство Пользователя', link: {type: 'doc', id: 'manual/manual'},
             items: [
                 {
-                    type: 'category', label: 'Интерфейсы', link: {type: 'doc', id: 'manual/interface'},
+                    type: 'category', label: 'Интерфейс', link: {type: 'doc', id: 'manual/interface'},
                     items: [
                         'manual/interface_forms', 'manual/interface_set', 'manual/interface_view',
                     ],
@@ -85,7 +85,7 @@ module.exports = {
                 },
             ],
         },
-
+        'note',
 
     ]
 }
