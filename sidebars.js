@@ -83,6 +83,17 @@ module.exports = {
                         'admin/common/form_structure','admin/common/user_settings','admin/common/mode_view',
                     ],
                 },
+                {
+                    type: 'category', label: 'Управление мастер данными', link: {type: 'doc',id: 'admin/control/control'},
+                    items: [
+                        {
+                            type: 'category', label: 'Справочник товаров', link: {type: 'doc',id: 'admin/control/goods/goods'},
+                            items: [
+                                'admin/control/goods/goods_category','admin/control/goods/goods_card',
+                            ],
+                        },
+                    ],
+                },
             ],
         },
         'note',
