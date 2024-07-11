@@ -92,11 +92,44 @@ module.exports = {
                                 'admin/control/goods/goods_category','admin/control/goods/goods_card',
                             ],
                         },
+                        'admin/control/dir_counter_agent','admin/control/dir_employee','admin/control/dir_tare',
+                        {
+                            type: 'category', label: 'Документы', link: {type: 'doc',id: 'admin/control/documents/documents'},
+                            items: [
+                                {
+                                    type: 'category', label: 'Документ отгрузки', link: {type: 'doc',id: 'admin/control/documents/doc_shipment'},
+                                    items: [
+                                        'admin/control/documents/doc_selection',
+                                    ],
+                                },
+                                'admin/control/documents/doc_receipt',
+                            ],
+                        },
+                        'admin/control/dir_unit',
                     ],
                 },
+                {
+                    type: 'category', label: 'Топология', link: {type: 'doc',id: 'admin/topology/topology'},
+                    items: [
+                        'admin/topology/stock','admin/topology/stock_segment','admin/topology/stock_structure','admin/topology/logic_zone',
+                    ],
+                },
+                {
+                    type: 'category', label: 'Настройка логики операций системы WMS', link: {type: 'doc',id: 'admin/set_logics/set_logics'},
+                    items: [
+                        'admin/set_logics/main_settings','admin/set_logics/selection','admin/set_logics/placement',
+                    ],
+                },
+                {
+                    type: 'category', label: 'Печать', link: {type: 'doc',id: 'admin/print/print'},
+                    items: [
+                        'admin/print/future_sheets','admin/print/label_tare',
+                    ],
+                },
+                'admin/control_task',
             ],
         },
-        'note',
+        'note','warning',
 
     ]
 }
