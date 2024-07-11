@@ -1,0 +1,68 @@
+---
+title: "Руководство администратора"
+---
+
+- [Архитектура системы WMS](architecture.md)
+- [Администрирование системы WMS](administration/administration.md)
+  - [Приложение](administration/app.md)
+    - [Настройки (приложения)](administration/app_settings.md)
+    - [Стандартные данные](administration/app_standard.md)
+  - [Система](administration/app.md)
+    - [Настройки](administration/sys_settings.md)
+    - [Производительность](administration/performance/performance.md)
+      - [Монитор процессов](administration/performance/monitor.md)
+    - [Интерпретатор](administration/sys_interpreter.md)
+    - [Обслуживание системы](administration/sys_service.md)
+    - [Уведомления](administration/notification/notification.md)
+      - [Почта](administration/notification/mail.md)
+    - [Планировщик](administration/scheduler/scheduler.md)
+      - [Восстановление данных](administration/scheduler/restore.md)
+      - [Задания планировщика](administration/scheduler/task.md)
+      - [Резервная копия](administration/scheduler/backup.md)
+    - [Доступ](administration/access/access.md)
+      - [Компьютеры](administration/access/computers.md)
+      - [Политика безопасности (настройка доступа пользователей)](administration/access/politics.md)
+      - [Пользователи](administration/access/users.md)
+    - [Журналы](administration/magazines/magazines.md)
+      - [Журнал запусков](administration/magazines/launch_log.md)
+      - [Журнал изменений](administration/magazines/change_log.md)
+      - [Журнал клиентских приложений](administration/magazines/client_application_log.md)
+      - [Журнал ошибок](administration/magazines/error_log.md)
+      - [Журнал подключений](administration/magazines/connection_log.md)
+      - [История действий](administration/magazines/history_log.md)
+      - [Механизм пользовательского логирования](administration/magazines/user_log.md)
+    - [Метаданные](administration/sys_meta.md)
+  - [Общее описание интерфейса клиента](common/common.md)
+    - [Структура формы](common/form_structure.md)
+    - [Пользовательская настройка интерфейса](common/user_settings.md)
+    - [Режимы представления данных](common/mode_view.md)
+  - [Управление мастер данными](control/control.md)
+    - [Справочник товаров](control/goods/goods.md)
+      - [Товарная категория](control/goods/goods_category.md)
+      - [Карточка товара](control/goods/goods_card.md)
+    - Справочник контрагентов
+    - Справочник сотрудников
+    - Справочник тары
+    - Документы
+      - Документ отгрузки
+        - Документ подбор
+      - Документ поступления
+    - Справочник единиц измерения
+  - Топология
+    - Склады
+    - Сегменты склада
+    - Построение структуры складов
+    - Логические зоны
+  - Настройка логики операций системы WMS
+    - Основные настройки
+    - Приемка (настройки)
+    - Размещение
+    - Подбор
+    - Отгрузка
+    - Оборудование
+    - Система (настройки логики)
+      - Нумераторы
+  - Печать
+    - Работа с будущими упаковочными листами
+    - Работа с этикетками будущей тары
+    - Управление задачами

@@ -20,7 +20,7 @@ module.exports = {
             ],
         },
         {
-            type: 'category', label: 'Руководство Администратора', link: {type: 'doc', id: 'admin/manual'},
+            type: 'category', label: 'Руководство Администратора', link: {type: 'doc', id: 'admin/admin'},
             items: [
                 'admin/architecture',
                 {
