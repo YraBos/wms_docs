@@ -1,0 +1,28 @@
+---
+title: 'Система'
+---
+
+- [Настройки](settings.md)
+- [Производительность](performance/performance.md)
+  - [Монитор процессов](performance/monitor.md)
+- [Интерпретатор](interpreter.md)
+- [Обслуживание системы](service.md)
+- [Уведомления](notification/notification.md)
+  - [Почта](notification/mail.md)
+- [Планировщик](scheduler/scheduler.md)
+  - [Восстановление данных](scheduler/restore.md)
+  - [Задания планировщика](scheduler/task.md)
+  - [Резервная копия](scheduler/backup.md)
+- [Доступ](access/access.md)
+  - [Компьютеры](access/computers.md)
+  - [Политика безопасности (настройка доступа пользователей)](access/politics.md)
+  - [Пользователи](access/users.md)
+- [Журналы](magazines/magazines.md)
+  - [Журнал запусков](magazines/launch.md)
+  - [Журнал изменений](magazines/change.md)
+  - [Журнал клиентских приложений](magazines/client.md)
+  - [Журнал ошибок](magazines/error.md)
+  - [Журнал подключений](magazines/connection.md)
+  - [История действий](magazines/history.md)
+  - [Механизм пользовательского логирования](magazines/user.md)
+- [Метаданные](meta.md)

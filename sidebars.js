@@ -8,7 +8,7 @@ module.exports = {
                 {
                     type: 'category', label: 'Интерфейс', link: {type: 'doc', id: 'manual/interface'},
                     items: [
-                        'manual/interface_forms', 'manual/interface_set', 'manual/interface_view',
+                        'manual/forms', 'manual/settings', 'manual/mode',
                     ],
                 },
             ],
@@ -27,52 +27,52 @@ module.exports = {
                     type: 'category', label: 'Администрирование системы WMS', link: {type: 'doc',id: 'admin/administration/administration'},
                     items: [
                         {
-                            type: 'category', label: 'Приложение', link: {type: 'doc', id: 'admin/administration/app'},
+                            type: 'category', label: 'Приложение', link: {type: 'doc', id: 'admin/administration/application/application'},
                             items: [
-                                'admin/administration/app_settings','admin/administration/app_standard',
+                                'admin/administration/application/settings','admin/administration/application/standard',
                             ],
                         },
                         {
-                            type: 'category', label: 'Система', link: {type: 'doc', id: 'admin/administration/sys'},
+                            type: 'category', label: 'Система', link: {type: 'doc', id: 'admin/administration/system/system'},
                             items: [
-                                'admin/administration/sys_settings',
+                                'admin/administration/system/settings',
                                 {
-                                    type: 'category', label: 'Производительность', link: {type: 'doc', id: 'admin/administration/performance/performance'},
+                                    type: 'category', label: 'Производительность', link: {type: 'doc', id: 'admin/administration/system/performance/performance'},
                                     items: [
-                                        'admin/administration/performance/monitor',
+                                        'admin/administration/system/performance/monitor',
                                     ],
                                 },
-                                'admin/administration/sys_interpreter','admin/administration/sys_service',
+                                'admin/administration/system/interpreter','admin/administration/system/service',
                                 {
-                                    type: 'category', label: 'Уведомления', link: {type: 'doc', id: 'admin/administration/notification/notification'},
+                                    type: 'category', label: 'Уведомления', link: {type: 'doc', id: 'admin/administration/system/notification/notification'},
                                     items: [
-                                        'admin/administration/notification/mail',
-                                    ],
-                                },
-                                {
-                                    type: 'category', label: 'Планировщик', link: {type: 'doc', id: 'admin/administration/scheduler/scheduler'},
-                                    items: [
-                                        'admin/administration/scheduler/restore','admin/administration/scheduler/task',
-                                        'admin/administration/scheduler/backup',
+                                        'admin/administration/system/notification/mail',
                                     ],
                                 },
                                 {
-                                    type: 'category', label: 'Доступ', link: {type: 'doc', id: 'admin/administration/access/access'},
+                                    type: 'category', label: 'Планировщик', link: {type: 'doc', id: 'admin/administration/system/scheduler/scheduler'},
                                     items: [
-                                        'admin/administration/access/computers','admin/administration/access/politics',
-                                        'admin/administration/access/users',
+                                        'admin/administration/system/scheduler/restore','admin/administration/system/scheduler/task',
+                                        'admin/administration/system/scheduler/backup',
                                     ],
                                 },
                                 {
-                                    type: 'category', label: 'Журналы', link: {type: 'doc', id: 'admin/administration/magazines/magazines'},
+                                    type: 'category', label: 'Доступ', link: {type: 'doc', id: 'admin/administration/system/access/access'},
                                     items: [
-                                        'admin/administration/magazines/launch_log','admin/administration/magazines/change_log',
-                                        'admin/administration/magazines/client_application_log','admin/administration/magazines/error_log',
-                                        'admin/administration/magazines/connection_log','admin/administration/magazines/history_log',
-                                        'admin/administration/magazines/user_log',
+                                        'admin/administration/system/access/computers','admin/administration/system/access/politics',
+                                        'admin/administration/system/access/users',
                                     ],
                                 },
-                                'admin/administration/sys_meta',
+                                {
+                                    type: 'category', label: 'Журналы', link: {type: 'doc', id: 'admin/administration/system/magazines/magazines'},
+                                    items: [
+                                        'admin/administration/system/magazines/launch','admin/administration/system/magazines/change',
+                                        'admin/administration/system/magazines/client','admin/administration/system/magazines/error',
+                                        'admin/administration/system/magazines/connection','admin/administration/system/magazines/history',
+                                        'admin/administration/system/magazines/user',
+                                    ],
+                                },
+                                'admin/administration/system/meta',
                             ]
                         },
                     ],
@@ -80,7 +80,7 @@ module.exports = {
                 {
                     type: 'category', label: 'Общее описание интерфейса клиента', link: {type: 'doc',id: 'admin/common/common'},
                     items: [
-                        'admin/common/form_structure','admin/common/user_settings','admin/common/mode_view',
+                        'admin/common/structure','admin/common/settings','admin/common/mode',
                     ],
                 },
                 {
@@ -109,15 +109,15 @@ module.exports = {
                     ],
                 },
                 {
-                    type: 'category', label: 'Топология', link: {type: 'doc',id: 'admin/топология/топология'},
+                    type: 'category', label: 'Топология', link: {type: 'doc',id: 'admin/topology/topology'},
                     items: [
-                        'admin/топология/склады','admin/топология/stock_segment','admin/топология/stock_structure','admin/топология/logic_zone',
+                        'admin/topology/stock','admin/topology/segment','admin/topology/structure','admin/topology/zone',
                     ],
                 },
                 {
-                    type: 'category', label: 'Настройка логики операций системы WMS', link: {type: 'doc',id: 'admin/set_logics/set_logics'},
+                    type: 'category', label: 'Настройка логики операций системы WMS', link: {type: 'doc',id: 'admin/logics/logics'},
                     items: [
-                        'admin/set_logics/main_settings','admin/set_logics/selection','admin/set_logics/placement',
+                        'admin/logics/settings','admin/logics/selection','admin/logics/placement',
                     ],
                 },
                 {
@@ -126,10 +126,16 @@ module.exports = {
                         'admin/print/future_sheets','admin/print/label_tare',
                     ],
                 },
-                'admin/control_task',
+                'admin/task',
             ],
         },
-        'note','warning',
+        { // !!! потом все удалить
+            type: 'category', label: 'XYZ', link: {type: 'doc',id: 'xyz/xyz'},
+            items: [
+                'xyz/rule','xyz/note','xyz/warning',
+            ],
+        },
+
 
     ]
 }
