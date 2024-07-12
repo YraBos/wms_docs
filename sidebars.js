@@ -109,9 +109,9 @@ module.exports = {
                     ],
                 },
                 {
-                    type: 'category', label: 'Топология', link: {type: 'doc',id: 'admin/topology/topology'},
+                    type: 'category', label: 'Топология', link: {type: 'doc',id: 'admin/топология/топология'},
                     items: [
-                        'admin/topology/stock','admin/topology/stock_segment','admin/topology/stock_structure','admin/topology/logic_zone',
+                        'admin/топология/склады','admin/топология/stock_segment','admin/топология/stock_structure','admin/топология/logic_zone',
                     ],
                 },
                 {
