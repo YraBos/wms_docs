@@ -89,23 +89,23 @@ module.exports = {
                         {
                             type: 'category', label: 'Справочник товаров', link: {type: 'doc',id: 'admin/control/goods/goods'},
                             items: [
-                                'admin/control/goods/goods_category','admin/control/goods/goods_card',
+                                'admin/control/goods/category','admin/control/goods/card',
                             ],
                         },
-                        'admin/control/dir_counter_agent','admin/control/dir_employee','admin/control/dir_tare',
+                        'admin/control/agent','admin/control/employee','admin/control/tare',
                         {
                             type: 'category', label: 'Документы', link: {type: 'doc',id: 'admin/control/documents/documents'},
                             items: [
                                 {
-                                    type: 'category', label: 'Документ отгрузки', link: {type: 'doc',id: 'admin/control/documents/doc_shipment'},
+                                    type: 'category', label: 'Документ отгрузки', link: {type: 'doc',id: 'admin/control/documents/shipment'},
                                     items: [
-                                        'admin/control/documents/doc_selection',
+                                        'admin/control/documents/selection',
                                     ],
                                 },
-                                'admin/control/documents/doc_receipt',
+                                'admin/control/documents/receipt',
                             ],
                         },
-                        'admin/control/dir_unit',
+                        'admin/control/unit',
                     ],
                 },
                 {
@@ -116,14 +116,18 @@ module.exports = {
                 },
                 {
                     type: 'category', label: 'Настройка логики операций системы WMS', link: {type: 'doc',id: 'admin/logics/logics'},
-                    items: [
-                        'admin/logics/settings','admin/logics/selection','admin/logics/placement',
+                    items: [ // Настройки,            Приемка,               Размещение,              Подбор,                  Отгрузка               Оборудование
+                        'admin/logics/settings','admin/logics/receipt','admin/logics/placement','admin/logics/selection','admin/logics/shipment','admin/logics/equipment',
+                        {
+                            type: 'category', label: 'Система (настройки логики)', link: {type: 'doc',id: 'admin/logics/system'},
+                            items: [ 'admin/logics/numerators', ],
+                        },
                     ],
                 },
                 {
                     type: 'category', label: 'Печать', link: {type: 'doc',id: 'admin/print/print'},
                     items: [
-                        'admin/print/future_sheets','admin/print/label_tare',
+                        'admin/print/sheets','admin/print/tare',
                     ],
                 },
                 'admin/task',

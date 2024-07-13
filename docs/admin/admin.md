@@ -38,30 +38,30 @@ title: "Руководство администратора"
     - [Режимы представления данных](common/mode.md)
   - [Управление мастер данными](control/control.md)
     - [Справочник товаров](control/goods/goods.md)
-      - [Товарная категория](control/goods/goods_category.md)
-      - [Карточка товара](control/goods/goods_card.md)
-    - Справочник контрагентов
-    - Справочник сотрудников
-    - Справочник тары
-    - Документы
-      - Документ отгрузки
-        - Документ подбор
-      - Документ поступления
-    - Справочник единиц измерения
-  - Топология
-    - Склады
-    - Сегменты склада
-    - Построение структуры складов
-    - Логические зоны
-  - Настройка логики операций системы WMS
-    - Основные настройки
-    - Приемка (настройки)
-    - Размещение
-    - Подбор
-    - Отгрузка
-    - Оборудование
-    - Система (настройки логики)
-      - Нумераторы
+      - [Товарная категория](control/goods/category.md)
+      - [Карточка товара](control/goods/card.md)
+    - [Справочник контрагентов](control/agent.md)
+    - [Справочник сотрудников](control/employee.md)
+    - [Справочник тары](control/tare.md)
+    - [Документы](control/documents/documents.md)
+      - [Документ отгрузки](control/documents/shipment.md)
+        - [Документ подбор](control/documents/selection.md)
+      - [Документ поступления](control/documents/receipt.md)
+    - [Справочник единиц измерения](control/unit.md)
+  - [Топология](topology/topology.md)
+    - [Склады](topology/stock.md)
+    - [Сегменты склада](topology/segment.md)
+    - [Построение структуры складов](topology/structure.md)
+    - [Логические зоны](topology/zone.md)
+  - [Настройка логики операций системы WMS](logics/logics.md)
+    - [Основные настройки](logics/settings.md)
+    - [Приемка (настройки)](logics/receipt.md)
+    - [Размещение](logics/placement.md)
+    - [Подбор](logics/selection.md)
+    - [Отгрузка](logics/shipment.md)
+    - [Оборудование](logics/equipment.md)
+    - [Система (настройки логики)](logics/system.md)
+      - [Нумераторы](logics/numerators.md)
   - Печать
     - Работа с будущими упаковочными листами
     - Работа с этикетками будущей тары
