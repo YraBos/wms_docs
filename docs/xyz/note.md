@@ -116,3 +116,19 @@ title: 'Некоторые заметки'
 ![](img/note2.png)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8owG83ozHYw?si=9CuD8fhiLtLjiotn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## Ошибки при build
+
+При выполнении команды **yarn build** иногда можно получить сообщение:
+
+> Cannot infer the update date for some files, as they are not tracked by git
+> Не удается определить дату обновления для некоторых файлов, так как они не отслеживаются git. 
+
+Это ситуация, как правило, возникает для графических файлов. 
+Вообще какие файлы не попали в git можно по команде **git status**. Просмотрев выданную информацию необходимо в дереве проекта Idea 
+вручную добавить каталоги или файлы, для чего выполнить действия:
+- Стать на файл и каталог в дереве проекта
+- Нажать правую кнопку мыши и из меню выбрать **Git - + Add (Ctrl+Alt+A)**
+
+
