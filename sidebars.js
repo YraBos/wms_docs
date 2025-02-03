@@ -11,6 +11,33 @@ module.exports = {
                         'manual/forms', 'manual/settings', 'manual/mode',
                     ],
                 },
+                {
+                    type: 'category', label: 'Справочники', link: {type: 'doc', id: 'manual/dirs/dirs'},
+                    items: [
+                        'manual/dirs/numerators',
+                        {
+                            type: 'category', label: 'Товары', link: {type: 'doc', id: 'manual/dirs/goods/goods'},
+                            items: [
+                                'manual/dirs/goods/categories','manual/dirs/goods/items','manual/dirs/goods/parties','manual/dirs/goods/labels',
+                            ],
+                        },
+
+                        {
+                            type: 'category', label: 'Тара', link: {type: 'doc', id: 'manual/dirs/tare/tare'},
+                            items: [
+                                'manual/dirs/tare/type','manual/dirs/tare/list',
+                            ],
+                        },
+                        'manual/dirs/staff','manual/dirs/barcodes','manual/dirs/stock','manual/dirs/wms-erp',
+                        'manual/dirs/ctrl-agents','manual/dirs/units','manual/dirs/status','manual/dirs/address',
+                        {
+                            type: 'category', label: 'Транспорт', link: {type: 'doc', id: 'manual/dirs/transport/transport'},
+                            items: [
+                                'manual/dirs/transport/address','manual/dirs/transport/drivers','manual/dirs/transport/cars','manual/dirs/transport/routes',
+                            ],
+                        },
+                    ],
+                },
             ],
         },
         {

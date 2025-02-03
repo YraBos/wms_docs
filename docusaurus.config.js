@@ -9,17 +9,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {
   title: 'WMS documentation',
-  tagline: 'WMS',
+  tagline: 'WMS documentation',
   favicon: 'img/favicon.ico',
-
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/wmsdocs/',
-
-  // Set the production url of your site here
   url: 'https://yrabos.github.io',
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'yrabos', // Usually your GitHub org/user name.
   projectName: 'wmsdocs', // Usually your repo name.
   deploymentBranch: 'main',
@@ -27,14 +20,6 @@ module.exports = {
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'ru',
-    locales: ['ru'],
-  },
 
   presets: [
     [
@@ -48,13 +33,6 @@ module.exports = {
           routeBasePath: '/',
           showLastUpdateTime: true,
         },
-        blog: {
-          showReadingTime: false,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-//          editUrl:
-//            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -63,20 +41,12 @@ module.exports = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-//      image: 'img/docusaurus-social-card.jpg',
-    // Поиск по сайту
-    algolia: {
+    algolia: { // Поиск по сайту
        appId: 'E1PO5EGBDA',
        apiKey: '57774cf7001ec391f7bb1a94e65e77df',
        indexName: 'yrabosio',
        contextualSearch: true,
-//       appId: '0S01ATFZLH',
-//       apiKey: 'c03ad547b1c3aa86535fc01091e3775e',
-//       indexName: 'yrabosio',
-//       contextualSearch: true,
     },
       navbar: {
         title: 'WMS',
@@ -84,37 +54,10 @@ module.exports = {
           alt: 'Logo',
           src: 'img/logo.svg',
         },
-//        items: [
-//          {
-//            type: 'docSidebar',
-//            sidebarId: 'tutorialSidebar',
-//            position: 'left',
-//            label: 'Tutorial',
-//          },
-//          {to: '/blog', label: 'Blog', position: 'left'},
-//          {
-//            href: 'https://github.com/yrabos/wms_docs',
-//            label: 'GitHub',
-//            position: 'right',
-//          },
-//          {
-//            type: 'localeDropdown',
-//            position: 'right',
-//          },
-//        ],
       },
       footer: {
         style: 'dark',
         links: [
-//          {
-//            title: 'Docs',
-//            items: [
-//              {
-//                label: 'Tutorial',
-//                to: '/docs/intro',
-//              },
-//            ],
-//          },
           {
             title: 'Community',
             items: [
@@ -132,21 +75,8 @@ module.exports = {
               },
             ],
           },
-//          {
-//            title: 'More',
-//            items: [
-//              {
-//                label: 'Blog',
-//                to: '/blog',
-//              },
-//              {
-//                label: 'GitHub',
-//                href: 'https://github.com/facebook/docusaurus',
-//              },
-//            ],
-//          },
         ],
-//        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} LuxSoft`,
       },
       prism: {
         theme: prismThemes.nightOwlLight,
