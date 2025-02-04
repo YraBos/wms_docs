@@ -29,7 +29,7 @@ module.exports = {
                             ],
                         },
                         'manual/dirs/staff','manual/dirs/barcodes','manual/dirs/stock','manual/dirs/wms-erp',
-                        'manual/dirs/ctrl-agents','manual/dirs/units','manual/dirs/status','manual/dirs/address',
+                        'manual/dirs/partners','manual/dirs/units','manual/dirs/status','manual/dirs/address',
                         {
                             type: 'category', label: 'Транспорт', link: {type: 'doc', id: 'manual/dirs/transport/transport'},
                             items: [
