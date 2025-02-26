@@ -3,7 +3,7 @@ title: 'Администрирование системы WMS'
 ---
 
 - [Приложение](application/application.md)
-  - [Настройки (приложения)](application/settings.md)
+  - [Настройки (приложения)](application/options.md)
   - [Стандартные данные](application/standard.md)
 - [Система](system/system.md)  
   - [Настройки](system/settings.md)

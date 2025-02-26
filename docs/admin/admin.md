@@ -5,7 +5,7 @@ title: "Руководство администратора"
 - [Архитектура системы WMS](architecture.md)
 - [Администрирование системы WMS](administration/administration.md)
   - [Приложение](administration/application/application.md)
-    - [Настройки (приложения)](administration/application/settings.md)
+    - [Настройки (приложения)](administration/application/options.md)
     - [Стандартные данные](administration/application/standard.md)
   - [Система](administration/application/application.md)
     - [Настройки](administration/system/settings.md)

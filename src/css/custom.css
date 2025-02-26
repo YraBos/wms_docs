@@ -32,3 +32,8 @@
 body .navbar__link {
 color: red !important;
 }
+
+/* отступ от левого края */
+.shifted-text {
+  padding-left: 40px; /* Укажите нужное значение отступа */
+}
