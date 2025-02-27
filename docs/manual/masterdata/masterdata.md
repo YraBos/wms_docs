@@ -1,0 +1,26 @@
+---
+title: 'Работа со справочниками'
+---
+
+- [Нумераторы](defaultnumerators.md)
+- [Товары](goods/goods.md)
+    - [Категории](goods/categories.md)
+    - [Товары](goods/items.md)
+    - [Партии](goods/dashboardlots.md)
+    - [Марки](goods/marks.md)
+- [Тара](containers/containers.md)
+    - [Типы тары](containers/containertypes.md)
+    - [Список тары](containers/formcontainers.md)
+- [Сотрудники](referenceemployees.md)
+- [Штрихкоды](barcodes.md)
+- [Склады](stocks.md)
+- [Соотношение складов WMS-ERP](mapingerpstockwms.md)
+- [Контрагенты](legalentites.md)
+- [Единицы измерения](uoms.md)
+- [Изменение статусов](changestatusnotes.md)
+- [Адресаты](dashboardrecipients.md)
+- [Транспорт](masterdatatransport/masterdatatransport.md)
+    - [Адреса доставки](masterdatatransport/masterdataaddresses.md)
+    - [Водители](masterdatatransport/masterdatadrivers.md)
+    - [Автомобили](masterdatatransport/masterdatatrucks.md)
+    - [Маршруты](masterdatatransport/masterdataroutes.md)
