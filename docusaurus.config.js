@@ -8,13 +8,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {
-  title: 'FusionWMS documentation',
-  tagline: 'FusionWMS',
+  title: 'WMS documentation',
+  tagline: 'WMS documentation',
   favicon: 'img/favicon.ico',
-  baseUrl: '/wmsdocs/',                                                                // ИСПРАВИТЬ
-  url: 'https://yrabos.github.io',                                                     // ИСПРАВИТЬ
-  organizationName: 'yrabos', // Usually your GitHub org/user name.                    // ИСПРАВИТЬ
-  projectName: 'FusionWMS-docs', // Usually your repo name.
+  baseUrl: '/wmsdocs/',
+  url: 'https://yrabos.github.io',
+  organizationName: 'yrabos', // Usually your GitHub org/user name.
+  projectName: 'wmsdocs', // Usually your repo name.
   deploymentBranch: 'main',
   trailingSlash: true,
 
@@ -28,7 +28,7 @@ module.exports = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/lsfusion-solutions/FusionWMS-docs/edit/main',
+          editUrl: 'https://github.com/YraBos/wms_docs/edit/main',
           editLocalizedFiles: true,
           routeBasePath: '/',
           showLastUpdateTime: true,
