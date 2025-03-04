@@ -1,3 +1,12 @@
+/* Все странички именуются, как:
+        1. Sid пунктов навигатора, чтобы не было проблем с сопоставлением пунктов меню с наименованием ID разделов,
+           за исключением отдельных пунктов меню, не имеющих отношения к навигатору
+        2. ID пунктов записывается строчными буквами, так как это является общим правилом для WEB
+           Распространенным соглашением для именования HTML-файлов и папок является использование строчных букв и дефисов
+           для разделения слов вместо пробелов, подчеркиваний или camel case . Это поможет вам избежать проблем с чувствительностью
+           к регистру, поскольку некоторые веб-серверы и браузеры могут обрабатывать заглавные и строчные буквы по-разному.
+*/
+
 module.exports = {
 
     docs: [
@@ -62,7 +71,8 @@ module.exports = {
                         {
                             type: 'category', label: 'Приложение', link: {type: 'doc', id: 'admin/administration/application/application'},
                             items: [
-                                'admin/administration/application/options','admin/administration/application/standard',
+                                'admin/administration/application/options','admin/administration/application/integrationdata',
+                                'admin/administration/application/migrationdata','admin/administration/application/defaultdata',
                             ],
                         },
                         {
@@ -72,10 +82,10 @@ module.exports = {
                                 {
                                     type: 'category', label: 'Производительность', link: {type: 'doc', id: 'admin/administration/system/performance/performance'},
                                     items: [
-                                        'admin/administration/system/performance/monitor',
+                                        'admin/administration/system/performance/processmonitor',
                                     ],
                                 },
-                                'admin/administration/system/interpreter','admin/administration/system/service',
+                                'admin/administration/system/interpreter','admin/administration/system/maintenance',
                                 {
                                     type: 'category', label: 'Уведомления', link: {type: 'doc', id: 'admin/administration/system/notification/notification'},
                                     items: [
@@ -85,24 +95,24 @@ module.exports = {
                                 {
                                     type: 'category', label: 'Планировщик', link: {type: 'doc', id: 'admin/administration/system/scheduler/scheduler'},
                                     items: [
-                                        'admin/administration/system/scheduler/restore','admin/administration/system/scheduler/task',
-                                        'admin/administration/system/scheduler/backup',
+                                        'admin/administration/system/scheduler/scheduledtask','admin/administration/system/scheduler/backup',
+                                        'admin/administration/system/scheduler/customrestore',
                                     ],
                                 },
                                 {
-                                    type: 'category', label: 'Доступ', link: {type: 'doc', id: 'admin/administration/system/access/access'},
+                                    type: 'category', label: 'Доступ', link: {type: 'doc', id: 'admin/administration/system/security/security'},
                                     items: [
-                                        'admin/administration/system/access/computers','admin/administration/system/access/politics',
-                                        'admin/administration/system/access/users',
+                                        'admin/administration/system/security/customusers','admin/administration/system/security/computers',
+                                        'admin/administration/system/security/securitypolicy',
+
                                     ],
                                 },
                                 {
-                                    type: 'category', label: 'Журналы', link: {type: 'doc', id: 'admin/administration/system/magazines/magazines'},
+                                    type: 'category', label: 'Журналы', link: {type: 'doc', id: 'admin/administration/system/logs/logs'},
                                     items: [
-                                        'admin/administration/system/magazines/launch','admin/administration/system/magazines/change',
-                                        'admin/administration/system/magazines/client','admin/administration/system/magazines/error',
-                                        'admin/administration/system/magazines/connection','admin/administration/system/magazines/history',
-                                        'admin/administration/system/magazines/user',
+                                        'admin/administration/system/logs/historyactions','admin/administration/system/logs/exceptions',
+                                        'admin/administration/system/logs/connections','admin/administration/system/logs/launches',
+                                        'admin/administration/system/logs/changes','admin/administration/system/logs/pings',
                                     ],
                                 },
                                 'admin/administration/system/meta',

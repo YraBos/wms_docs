@@ -34,6 +34,9 @@ color: red !important;
 }
 
 /* отступ от левого края */
-.shifted-text {
+.shifted-text20 {
+  padding-left: 20px; /* Укажите нужное значение отступа */
+}
+.shifted-text40 {
   padding-left: 40px; /* Укажите нужное значение отступа */
 }
