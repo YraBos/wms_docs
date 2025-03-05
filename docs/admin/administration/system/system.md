@@ -24,5 +24,4 @@ title: 'Система'
   - [Журнал ошибок](logs/exceptions.md)
   - [Журнал подключений](logs/connections.md)
   - [История действий](logs/historyactions.md)
-  - [Механизм пользовательского логирования](logs/user.md)
 - [Метаданные](meta.md)
