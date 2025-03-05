@@ -32,6 +32,7 @@ title: "Руководство администратора"
       - [Журнал ошибок](administration/system/logs/exceptions.md)
       - [Журнал подключений](administration/system/logs/connections.md)
       - [История действий](administration/system/logs/historyactions.md)
+      - [Механизм пользовательского логирования](administration/system/logs/user.md)
     - [Метаданные](administration/system/meta.md)
   - [Общее описание интерфейса клиента](common/common.md)
     - [Структура формы](common/structure.md)

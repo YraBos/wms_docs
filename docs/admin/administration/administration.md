@@ -30,4 +30,5 @@ title: 'Администрирование системы WMS'
     - [Журнал ошибок](system/logs/exceptions.md)
     - [Журнал подключений](system/logs/connections.md)
     - [История действий](system/logs/historyactions.md)
+    - [Механизм пользовательского логирования](system/logs/user.md)
   - [Метаданные](system/meta.md)
