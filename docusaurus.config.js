@@ -40,14 +40,30 @@ module.exports = {
     ],
   ],
 
+      // локальный поиск
+      themes: [
+        // ... Настройки вашей темы
+        [
+            require.resolve("@easyops-cn/docusaurus-search-local"),
+            ({
+                // ... Ваши опции
+                // рекомендуется использовать `hashed`, поскольку возможно долгосрочное кэширование индексного файла
+                hashed: true,
+                language: ["en", "ru"], // включаем обрабатываемые языки
+                indexPages: true, // индексируем страницы для поиска
+                highlightSearchTermsOnTargetPage: true, // подсветка найденного
+            }),
+        ],
+      ],
+
   themeConfig:
     ({
-    algolia: { // Поиск по сайту
-       appId: 'E1PO5EGBDA',
-       apiKey: '57774cf7001ec391f7bb1a94e65e77df',
-       indexName: 'yrabosio',
-       contextualSearch: true,
-    },
+//    algolia: { // Поиск по сайту
+//       appId: 'E1PO5EGBDA',
+//       apiKey: '57774cf7001ec391f7bb1a94e65e77df',
+//       indexName: 'yrabosio',
+//       contextualSearch: true,
+//    },
       navbar: {
         title: 'WMS',
         logo: {

@@ -20,14 +20,14 @@ module.exports = {
         {
             type: 'category', label: 'Нормативно-справочная информация', link: {type: 'doc', id: 'nri/nri'},
             items: [
-                // категории, товары, сотрудники, штрихкоды, контрагентов, единиц измерения
+                // категории, товары, сотрудники, штрихкоды, контрагентов, единиц измерения, склады
                 'nri/categories','nri/items','nri/referenceemployees','nri/barcodes', 'nri/legalentites','nri/uoms',
             ]
         },
         {
             type: 'category', label: 'Управление топологией', link: {type: 'doc', id: 'topology/topology'},
              items: [
-                 'topology/topology',
+                 'topology/stocks','topology/segments',
              ],
         },
         {
