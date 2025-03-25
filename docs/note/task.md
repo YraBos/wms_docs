@@ -16,11 +16,11 @@ title: 'Задачи и материалы'
     - [30503](http://support.luxsoft.by/issues/30503), 04.03.2025, Справочник штрихкоды
     - [31007](http://support.luxsoft.by/issues/31007), 06.03.2025, Справочник сотрудники
     - [30962](http://support.luxsoft.by/issues/30962), 04.03.2025, Справочник склады
-- В работе
     - [30963](http://support.luxsoft.by/issues/30963), 04.03.2025, Справочник сегменты склада
+- В работе
+    - [31027](http://support.luxsoft.by/issues/31027), 10.03.2025, Подсистема печати
 - Назначенные
     - [30964](http://support.luxsoft.by/issues/30964), 04.03.2025, Топология
-    - [31027](http://support.luxsoft.by/issues/31027), 10.03.2025, Подсистема печати
 
 ## Ссылки на материалы
 - [Материалы презентаций клиентам, Redmine](http://support.luxsoft.by/projects/lswms/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B_%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B9)

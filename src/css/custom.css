@@ -33,10 +33,7 @@ body .navbar__link {
 color: red !important;
 }
 
-/* отступ от левого края */
-.shifted-text20 {
-  padding-left: 20px; /* Укажите нужное значение отступа */
+p + ul, p + ol {
+  margin-top: -0.75rem; /* Полностью убирает лишний отступ перед списком */
 }
-.shifted-text40 {
-  padding-left: 40px; /* Укажите нужное значение отступа */
-}
+

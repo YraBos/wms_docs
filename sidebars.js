@@ -20,8 +20,8 @@ module.exports = {
         {
             type: 'category', label: 'Нормативно-справочная информация', link: {type: 'doc', id: 'nri/nri'},
             items: [
-                // категории, товары, сотрудники, штрихкоды, контрагентов, единиц измерения, склады
-                'nri/categories','nri/items','nri/referenceemployees','nri/barcodes', 'nri/legalentites','nri/uoms',
+                // категории, товары, сотрудники, штрихкоды, контрагентов, единиц измерения, подсистема печати
+                'nri/categories','nri/items','nri/referenceemployees','nri/barcodes', 'nri/legalentites','nri/uoms','nri/print',
             ]
         },
         {
@@ -63,7 +63,7 @@ module.exports = {
         {
             type: 'category', label: 'Замечания', link: {type: 'doc', id: 'note/note'},
             items: [
-                'note/task','note/rule','note/logfile','note/todo',
+                'note/task','note/rule',
             ],
         },
     ],
