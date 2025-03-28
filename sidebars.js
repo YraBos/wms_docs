@@ -20,9 +20,15 @@ module.exports = {
         {
             type: 'category', label: 'Нормативно-справочная информация', link: {type: 'doc', id: 'nri/nri'},
             items: [
-                // категории, товары, сотрудники, штрихкоды, контрагентов, единиц измерения, подсистема печати
-                'nri/categories','nri/items','nri/referenceemployees','nri/barcodes', 'nri/legalentites','nri/uoms','nri/print',
-            ]
+                // категории, товары, сотрудники, штрихкоды, контрагентов, единиц измерения
+                'nri/categories','nri/items','nri/referenceemployees','nri/barcodes', 'nri/legalentites','nri/uoms',
+                {
+                    type: 'category', label: 'Подсистема печати', link: {type: 'doc', id: 'nri/print'},
+                    items: [
+                        'nri/printdocs','nri/printformats','nri/printerwms','nri/printtemplates',
+                    ],
+                },
+            ],
         },
         {
             type: 'category', label: 'Управление топологией', link: {type: 'doc', id: 'topology/topology'},

@@ -36,4 +36,3 @@ color: red !important;
 p + ul, p + ol {
   margin-top: -1rem; /* Полностью убирает лишний отступ перед списком */
 }
-
