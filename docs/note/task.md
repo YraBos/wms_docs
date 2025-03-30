@@ -17,8 +17,9 @@ title: 'Задачи и материалы'
     - [31007](http://support.luxsoft.by/issues/31007), 06.03.2025, Справочник сотрудники
     - [30962](http://support.luxsoft.by/issues/30962), 04.03.2025, Справочник склады
     - [30963](http://support.luxsoft.by/issues/30963), 04.03.2025, Справочник сегменты склада
-- В работе
     - [31027](http://support.luxsoft.by/issues/31027), 10.03.2025, Подсистема печати
+- В работе
+    - [31308](http://support.luxsoft.by/issues/31308), 28.03.2025, Справочник атрибутов  
 - Назначенные
     - [30964](http://support.luxsoft.by/issues/30964), 04.03.2025, Топология
 

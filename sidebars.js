@@ -21,7 +21,7 @@ module.exports = {
             type: 'category', label: 'Нормативно-справочная информация', link: {type: 'doc', id: 'nri/nri'},
             items: [
                 // категории, товары, сотрудники, штрихкоды, контрагентов, единиц измерения
-                'nri/categories','nri/items','nri/referenceemployees','nri/barcodes', 'nri/legalentites','nri/uoms',
+                'nri/categories','nri/items','nri/referenceemployees','nri/barcodes', 'nri/legalentites','nri/uoms','nri/attributes',
                 {
                     type: 'category', label: 'Подсистема печати', link: {type: 'doc', id: 'nri/print'},
                     items: [
