@@ -18,14 +18,15 @@ module.exports = {
             ],
         },
         {
-            type: 'category', label: 'Нормативно-справочная информация', link: {type: 'doc', id: 'nri/nri'},
+            type: 'category', label: 'Нормативно-справочная информация', link: {type: 'doc', id: 'masterdata/masterdata'},
             items: [
                 // категории, товары, сотрудники, штрихкоды, контрагентов, единиц измерения
-                'nri/categories','nri/items','nri/referenceemployees','nri/barcodes', 'nri/legalentites','nri/uoms','nri/attributes',
+                'masterdata/categories','masterdata/items','masterdata/referenceemployees',
+                'masterdata/barcodes', 'masterdata/legalentites','masterdata/uoms','masterdata/attributes',
                 {
-                    type: 'category', label: 'Подсистема печати', link: {type: 'doc', id: 'nri/print'},
+                    type: 'category', label: 'Подсистема печати', link: {type: 'doc', id: 'masterdata/print'},
                     items: [
-                        'nri/printdocs','nri/printformats','nri/printerwms','nri/printtemplates',
+                        'masterdata/printdocs','masterdata/printformats','masterdata/printerwms','masterdata/printtemplates',
                     ],
                 },
             ],
