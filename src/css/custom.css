@@ -106,3 +106,8 @@ warning {
 warning::before {
   content: var(--warning-header-content);
 }
+
+/* Полностью регулирует отступы перед списком */
+p + ul, p + ol {
+  margin-top: -1rem;
+}
