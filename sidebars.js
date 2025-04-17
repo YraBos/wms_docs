@@ -34,7 +34,7 @@ module.exports = {
         {
             type: 'category', label: 'Управление топологией', link: {type: 'doc', id: 'topology/topology'},
              items: [
-                 'topology/stocks','topology/segments',
+                 'topology/stocks','topology/segments','topology/topologyeditor',
              ],
         },
         {
