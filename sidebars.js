@@ -22,7 +22,7 @@ module.exports = {
             items: [
                 // категории, товары, сотрудники, штрихкоды, контрагентов, единиц измерения
                 'masterdata/categories','masterdata/items','masterdata/referenceemployees',
-                'masterdata/barcodes', 'masterdata/legalentites','masterdata/uoms','masterdata/attributes',
+                'masterdata/barcodes', 'masterdata/legalentites','masterdata/uoms','masterdata/options','masterdata/attributes',
                 {
                     type: 'category', label: 'Подсистема печати', link: {type: 'doc', id: 'masterdata/print'},
                     items: [
@@ -40,7 +40,7 @@ module.exports = {
         {
             type: 'category', label: 'Входящий поток', link: {type: 'doc', id: 'incoming/incoming'},
              items: [
-                 'incoming/incoming',
+                 'incoming/receipttype','incoming/receiptstrategy','incoming/receipt',
              ],
         },
         {
@@ -70,7 +70,7 @@ module.exports = {
         {
             type: 'category', label: 'Замечания', link: {type: 'doc', id: 'note/note'},
             items: [
-                'note/task','note/rule',
+                'note/task','note/rule','note/blanks'
             ],
         },
     ],

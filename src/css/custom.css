@@ -112,4 +112,9 @@ p + ul, p + ol {
   margin-top: -1rem;
 }
 
+/* выравнивание абзацев по ширине */
+.markdown p {
+  text-align: justify;
+}
+
 

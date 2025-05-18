@@ -20,11 +20,13 @@ title: 'Задачи и материалы'
     - [31027](http://support.luxsoft.by/issues/31027), 10.03.2025, Подсистема печати
     - [31308](http://support.luxsoft.by/issues/31308), 28.03.2025, Справочник атрибутов
     - [30964](http://support.luxsoft.by/issues/30964), 04.03.2025, Топология
-- В работе
-- Назначенные
-    - [31331](http://support.luxsoft.by/issues/31331), 31.03.2025, Приемка на ТСД и в АРМ
-    - [31330](http://support.luxsoft.by/issues/31330), 31.03.2025, Документ Поступление
     - [31329](http://support.luxsoft.by/issues/31329), 31.03.2025, Стратегии приемки
+- В работе
+  - [31940](http://support.luxsoft.by/issues/31940), 16.05.2025, Дать описание нумератора
+  - [31941](http://support.luxsoft.by/issues/31941), 16.05.2025, Описание тары
+  - [31330](http://support.luxsoft.by/issues/31330), 31.03.2025, Документ Поступление
+- Назначенные
+  - [31331](http://support.luxsoft.by/issues/31331), 31.03.2025, Приемка на ТСД и в АРМ
 
 ## Ссылки на материалы
 - [Материалы презентаций клиентам, Redmine](http://support.luxsoft.by/projects/lswms/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B_%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B9)
