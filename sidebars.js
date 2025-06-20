@@ -21,12 +21,21 @@ module.exports = {
             type: 'category', label: 'Нормативно-справочная информация', link: {type: 'doc', id: 'masterdata/masterdata'},
             items: [
                 // категории, товары, сотрудники, штрихкоды, контрагентов, единиц измерения
-                'masterdata/categories','masterdata/items','masterdata/referenceemployees',
+                'masterdata/categories','masterdata/items',
+                {
+                    type: 'category', label: 'Транспортные единицы', link: {type: 'doc', id: 'masterdata/transportunits/transportunits'},
+                    items: [
+                        'masterdata/transportunits/containertypes','masterdata/transportunits/formcontainers',
+                        'masterdata/transportunits/printfuturecontainers',
+                    ],
+                },
+                'masterdata/referenceemployees',
                 'masterdata/barcodes', 'masterdata/legalentites','masterdata/uoms','masterdata/options','masterdata/attributes',
                 {
-                    type: 'category', label: 'Подсистема печати', link: {type: 'doc', id: 'masterdata/print'},
+                    type: 'category', label: 'Подсистема печати', link: {type: 'doc', id: 'masterdata/print/print'},
                     items: [
-                        'masterdata/printdocs','masterdata/printformats','masterdata/printerwms','masterdata/printtemplates',
+                        'masterdata/print/printdocs','masterdata/print/printformats',
+                        'masterdata/print/printerwms','masterdata/print/printtemplates',
                     ],
                 },
             ],
