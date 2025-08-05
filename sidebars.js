@@ -9,7 +9,7 @@
 
 
 module.exports = {
-
+/*'masterdata/defaultnumerators','masterdata/attributes','masterdata/options',*/
     docs: [
         {
             type: 'category', label: 'Введение', link: {type: 'doc', id: 'intro/intro'},
@@ -30,14 +30,7 @@ module.exports = {
                     ],
                 },
                 'masterdata/referenceemployees',
-                'masterdata/barcodes', 'masterdata/legalentites','masterdata/uoms','masterdata/options','masterdata/attributes',
-                {
-                    type: 'category', label: 'Подсистема печати', link: {type: 'doc', id: 'masterdata/print/print'},
-                    items: [
-                        'masterdata/print/printdocs','masterdata/print/printformats',
-                        'masterdata/print/printerwms','masterdata/print/printtemplates',
-                    ],
-                },
+                'masterdata/barcodes', 'masterdata/legalentites','masterdata/uoms',
             ],
         },
         {
@@ -67,7 +60,19 @@ module.exports = {
         {
             type: 'category', label: 'Дополнительный функционал', link: {type: 'doc', id: 'additional/additional'},
              items: [
-                 'additional/additional',
+                 'additional/additional','additional/pdtemulator',
+             ],
+        },
+        {
+            type: 'category', label: 'Подсистем печати', link: {type: 'doc', id: 'wmsprint/wmsprint'},
+             items: [
+                 'wmsprint/printdocs','wmsprint/printformats','wmsprint/printerwms','wmsprint/printtemplates',
+             ],
+        },
+        {
+            type: 'category', label: 'Настройки', link: {type: 'doc', id: 'wmssettings/wmssettings'},
+             items: [
+                 'wmssettings/options','wmssettings/defaultnumerators','wmssettings/attributes',
              ],
         },
         {
