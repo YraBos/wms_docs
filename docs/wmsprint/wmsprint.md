@@ -17,9 +17,9 @@ title: 'Подсистема печати'
   повышает эффективность работы
 
 ## Печать документов 
-- [Печать документов](printdocs.md)
+- [Печать документов](../wmsprint/printdocs.md)
 
 ## Настройки подсистемы печати
-- [Форматы бумаги](printformats.md)
-- [Принтеры](printerwms.md)
-- [Шаблоны документов](printtemplates.md) 
+- [Форматы бумаги](../wmsprint/printformats.md)
+- [Принтеры](../wmsprint/printerwms.md)
+- [Шаблоны документов](../wmsprint/printtemplates.md) 
